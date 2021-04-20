@@ -4,6 +4,7 @@
 }
 
 /* Index Page */
+
 .header-container {
     display: flex;
     flex-direction: column;
@@ -21,12 +22,12 @@
 
 .wrapper-text p {
     text-align: center;
-    margin-top: 2px;  
+    margin-top: 7px;  
     font-size: 17px;
 }
 
 .wrapper h1 {
-    font-size: 70px;
+    font-size: 35px;
     color: black; 
     text-shadow: none;
     display: inline-block;
@@ -227,7 +228,56 @@ nav li:hover{
 .cane-content{
     background-color: pink;
     margin-left: 4%;
-    padding-top: 1.2%;
+    padding-top: 3%;
     margin-right: 4%;
     margin-bottom: .35%;
+}
+
+.middle {
+    display: grid;
+    grid-template-rows: repeat(3, auto);
+    grid-template-columns: repeat(2, auto);
+}
+
+.quote1  {
+    grid-row: 1/2;
+    grid-column: 1/2;
+    padding: 10% 15% 10% 15%; 
+    padding-bottom: 20%;
+}
+
+.analysis1 {
+    grid-row: 1/2; 
+    grid-column: 2/ span 1;
+    padding: 10% 15% 10% 15%; 
+    padding-bottom: 20%; 
+}
+
+.quote2 {
+    grid-row: 2/3; 
+    grid-column: 2/ span 1; 
+    padding: 10% 15% 10% 15%; 
+    padding-bottom: 20%; 
+    padding-top: 16%; 
+}
+
+.analysis2 {
+    grid-row: 2/3; 
+    grid-column: 1/ span 1; 
+    padding: 10% 15% 10% 15%; 
+    padding-bottom: 20%; 
+}
+
+.quote3  {
+    grid-row: 3/-1;
+    grid-column: 1/2;
+    padding: 10% 15% 10% 15%; 
+    padding-bottom: 20%;
+}
+
+.analysis3 {
+    grid-row: 3/-1; 
+    grid-column: 2/ span 1;
+    padding: 10% 15% 10% 15%; 
+    padding-bottom: 20%; 
 }
