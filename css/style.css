@@ -11,26 +11,26 @@
     background-size: cover;
     background-clip: content-box;
     width: 100vw;
-    height: 37vh; 
-    background-color:#eeecd8;
-    -moz-box-shadow:0 5px 5px rgba(182, 182, 182, 0.75);
-    -webkit-box-shadow: 0 5px 5px rgba(182, 182, 182, 0.75);
-    box-shadow: 0 5px 5px rgba(182, 182, 182, 0.75);
+    height: 40vh; 
+    background-color:#baf1a1;
+    
 }
 
 .wrapper-text p {
     text-align: center;
     margin-top: 7px;  
-    font-size: 17px;
+    font-size: 26px;
+    font-family: 'Goudy Bookletter 1911', serif;
 }
 
 .wrapper h1 {
-    font-size: 35px;
+    font-size: 50px;
     color: black; 
     text-shadow: none;
     display: inline-block;
     margin-left: auto; 
     margin-right: auto; 
+    font-family: 'Goudy Bookletter 1911', serif;
 }
 
 nav a, div a{
@@ -40,7 +40,7 @@ nav a, div a{
 
 nav a:active{
     font-weight: bold;
-    font-family: 'Lora', serif;
+    font-family: 'Goudy Bookletter 1911', serif;
 }
 
 nav li:hover{
@@ -58,10 +58,11 @@ nav li:hover{
 }
 
 #nav-menu li {
-    font-size: 25px;
+    font-size: 30px;
     margin-right: 0%;
     padding-left: 1%;
     padding-right: 1%;
+    font-family: 'Goudy Bookletter 1911', serif;
 }
 
 #nav-menu li a {
@@ -76,12 +77,25 @@ nav li:hover{
 }
 
 .statement {
-    background-color: pink;
+    background-color: #9de3d0;
+    padding: 10% 15%;
+    font-family: 'Goudy Bookletter 1911', serif;
 }
 .purpose {
-    font-size: 20px;
-    padding: 10% 15%;
-    margin-bottom: 1%;
+    font-size: 25px;
+    font-family: 'Goudy Bookletter 1911', serif;
+}
+
+.purpose2 {
+    font-size: 25px;
+    font-family: 'Goudy Bookletter 1911', serif;
+
+}
+
+li {
+    font-size: 25px; 
+    font-family: 'Goudy Bookletter 1911', serif;
+    
 }
 
 #main {
@@ -93,6 +107,7 @@ nav li:hover{
 .cane-page{
     grid-column: 1/2;
     grid-row: 1 / span 1;
+    font-family: 'Goudy Bookletter 1911', serif;
 
 }
 
@@ -101,9 +116,10 @@ nav li:hover{
     grid-row: 2 / span 1;
 }
 
-.sofar-page{
+.therethere-page{
     grid-column: 2/ span 1;
     grid-row: 1 / span 1;
+    font-family: 'Goudy Bookletter 1911', serif;
 
 }
 
@@ -112,9 +128,10 @@ nav li:hover{
     grid-row: 2 / span 1;
 }
 
-.therethere-page{
+.belonging-page{
     grid-column: 3/ span 1;
     grid-row: 1 / span 1;
+    font-family: 'Goudy Bookletter 1911', serif;
 
 }
 
@@ -129,8 +146,9 @@ nav li:hover{
     margin-top: 7%;
     margin-bottom: 3%; 
     text-decoration: underline;
+    font-family: 'Goudy Bookletter 1911', serif;
 }
-.cane-page p, .sofar-page p, .therethere-page p{
+.cane-page p, .belonging-page p, .therethere-page p{
     font-size: 17px;
     padding-right: 10%;
     padding-left: 15%;
@@ -150,7 +168,7 @@ nav li:hover{
 
 
 
-.home-button{
+.home-button1, .home-button2, .home-button3{
     display: block;
     margin-top: 3%;
     margin-bottom: 3%;
@@ -162,14 +180,26 @@ nav li:hover{
     border-radius: 1.2rem;
     padding: 0.7rem 2rem;
     font-weight: 700;
-    font-size: 16px;
+    font-size: 17px;
     color: black;
+    font-family: 'Goudy Bookletter 1911', serif;
 }
 
-.home-button:hover{
-    background: #9ad3bc; 
+.home-button1:hover{
+    background: rgb(0,158,170); 
     
 }
+.home-button2:hover{
+    background: #f26732;
+}
+
+.home-button3:hover{
+    background: #900738;
+    color: white;
+}
+
+
+
 
 /* Cane Page */
 
@@ -181,36 +211,45 @@ nav li:hover{
     background-size: cover;
     background-clip: content-box;
     width: 100vw;
-    height: 37vh; 
-    background-color:#eeecd8;
-    -moz-box-shadow:0 5px 5px rgba(182, 182, 182, 0.75);
-    -webkit-box-shadow: 0 5px 5px rgba(182, 182, 182, 0.75);
-    box-shadow: 0 5px 5px rgba(182, 182, 182, 0.75);
+    height: 40vh; 
+    background-color:#009eaa;
 }
 
 
 .cane-wrapper h1 {
-    font-size: 70px;
-    color: black; 
+    font-size: 80px;
+    color: #fed350;
     text-shadow: none;
     display: inline-block;
     margin-left: auto; 
     margin-right: auto; 
     text-align: center;
+    font-family: 'Cinzel', serif;
 }
 
 
 .cane-wrapper .author-text {
     font-size: 30px;
     margin-top: 5px; 
+    color: #fed350;
+    font-family: 'Cinzel', serif;
 }
+
 
 .begin-main {
     display: grid;
     grid-template-rows: repeat(1, auto);
-    grid-template-columns: repeat(2,auto)
+    grid-template-columns: repeat(2,auto);
+    margin-bottom: 5%;
 }
 
+.titlep {
+    font-family: 'Cinzel', serif;
+    margin-bottom: -.5%;
+    margin-top: -1%;
+    margin-left: 8%;
+    font-size: 20px; 
+}
 .cane-pic img {
     height: 90vh; 
     margin-left: 7%;
@@ -220,11 +259,12 @@ nav li:hover{
     font-size: 17px;
     margin-left: 8%;
     margin-right: 5%;
+    font-family: 'Lato', sans-serif;
 
 }
 
 .cane-content{
-    background-color: pink;
+    background-color: #fed350;
     margin-left: 4%;
     padding-top: 3%;
     margin-right: 4%;
@@ -234,12 +274,16 @@ nav li:hover{
 .think {
     margin-top: 5px; 
     margin-bottom: 7px;
+    font-family: 'Cinzel', serif;
+    margin-top: 2%;
 
 }
 
+
 .quotes {
     text-align: center;
-    font-size: 20px;
+    font-size: 30px;
+    font-family: 'Cinzel', serif;
 }
 
 .txt {
@@ -256,7 +300,8 @@ nav li:hover{
     grid-column: 1/2;
     padding: 10% 15% 10% 15%; 
     padding-bottom: 5%;
-    background-color: pink;
+    background-color: #fffcc1;
+    font-family: 'Cinzel', serif;
 }
 
 .analysis1 {
@@ -264,7 +309,8 @@ nav li:hover{
     grid-column: 2/ span 1;
     padding: 10% 15% 10% 15%; 
     padding-bottom: 10%; 
-    background-color: plum;
+    background-color: #ffefa0;
+    font-family: 'Lato', sans-serif;
     
 }
 
@@ -274,7 +320,8 @@ nav li:hover{
     padding: 10% 15% 10% 15%; 
     padding-bottom: 10%; 
     padding-top: 25%; 
-    background-color: pink;
+    background-color: #ccffbd;
+    font-family: 'Cinzel', serif;
 }
 
 .analysis2 {
@@ -282,7 +329,8 @@ nav li:hover{
     grid-column: 1/ span 1; 
     padding: 10% 15% 10% 15%; 
     padding-bottom: 10%; 
-    background-color: plum;
+    background-color: #7eca9c;
+    font-family: 'Lato', sans-serif;
 }
 
 .quote3  {
@@ -291,7 +339,8 @@ nav li:hover{
     padding: 10% 15% 10% 15%; 
     padding-bottom: 20%;
     padding-top: 15%;
-    background-color: pink;
+    background-color: #94ebcd;
+    font-family: 'Cinzel', serif;
 }
 
 .analysis3 {
@@ -299,24 +348,28 @@ nav li:hover{
     grid-column: 2/ span 1;
     padding: 10% 15% 10% 15%; 
     padding-bottom: 20%; 
-    background-color: plum;
+    background-color: #6ddccf;
+    font-family: 'Lato', sans-serif;
 }
 .educ {
-    margin-top: 40px; 
+    padding-top: 50px;
+    background: #009eaa;
 }
 .bottom-mid {
     display:flex; 
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    margin-top: 10px;
-    margin-bottom: 130px;
+    background: #009eaa;
+    padding-bottom: 20px;
+    margin-bottom: 100px;
 
 }
 
 .cane-vid1 p, .cane-vid2 p, .cane-vid3 p {
-    font-size: 15px; 
+    font-size: 13px; 
     margin-bottom: 10px;
+    font-family: 'Lato', sans-serif;
 }
 
 
@@ -324,23 +377,278 @@ nav li:hover{
     margin: 10px; 
 }
 
-.test1 {
+
+
+.cane-imgs{
     display: grid;
-    grid-template-rows: repeat(2, 50%);
-    grid-template-columns: repeat(2, 50%);
-    margin-top: 20px;
+    grid-template-columns: 50% 50%;
+    border-right: 70px solid white; 
+    border-left: 70px solid white;
+    border-top: 10px solid white;   
+}
+.cane-art img {
+    width:100%;
+    height:100%;
+}
+
+.art-container2, .art-container4{
+    height:100%;
+    
+}
+.descriptions  {
+    grid-column: 1/ span 2;
+    padding-top: 10px; 
+
+  
+}
+
+.descriptions p{ 
+    padding-top: 10px;
+    font-family: 'Lato', sans-serif;
+    background-color: #fed350; 
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.descriptions p a:hover {
+    background-color: #009eaa;
+}
+.bottom-bottom {
+    padding-bottom: 40px;
+    margin-bottom: 20px;
+}
+
+/* There There Page */
+.therethere{
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center; 
+    background-size: cover;
+    background-clip: content-box;
+    width: 100vw;
+    height: 40vh; 
+    background-color: #f26732;
+
+}
+
+.therethere-wrapper h1 {
+    font-size: 70px;
+    color: #fee436; 
+    text-shadow: none;
+    display: inline-block;
+    margin-left: auto; 
+    margin-right: auto; 
+    text-align: center;
+    font-family: 'Aleo', serif;
 }
 
 
-.cane-art img{
-    width: 90%; 
+.therethere-wrapper .author-text-there {
+    font-size: 30px;
+    margin-top: 5px; 
+    font-family: 'Aleo', serif;
+    color: #fee436
+}
+
+
+.there-titlep {
+    font-family: 'Aleo', serif;
+    margin-bottom: -.5%;
+    margin-top: -1%;
+    margin-left: 5%;
+    font-size: 20px; 
+}
+
+.main-therethere{
+    display: grid;
+    grid-template-rows: repeat(1, auto);
+    grid-template-columns: 60% 40%;
+}
+
+
+
+.therethere-pic img {
+    max-width: 100%;
+
+}
+
+.therethere-content{
+    background-color: #fee436;
+    margin-left: 2%;
+    margin-right:2%;
+    padding-top: 3%;
+    margin-bottom: .35%;
+    margin-right: 2%;
+}
+
+.therethere-content p{
+    font-size: 17px;
+    margin-left: 5%;
+    margin-right: 3.5%;
+    font-family: 'Lato', sans-serif;
+}
+
+.bottomp {
+    margin-bottom: 2%;
+}
+.therethere-pic {
+    padding-right: 2%;
+}
+
+.think-there {
+    margin-top: 10px; 
+    margin-bottom: 7px;
+    font-family: 'Aleo', serif;
+    margin-top: 2%;
+
+}
+
+.quotes-there {
+    margin-top: 90px; 
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Aleo', serif;
+}
+
+
+.quote1-therethere  {
+    grid-row: 1/2;
+    grid-column: 1/2;
+    padding: 10% 15% 10% 15%; 
+    padding-top: 15%;
+    padding-bottom: 5%;
+    background-color: #f7ea00;
+    font-family: 'Aleo', serif;
+}
+
+.analysis1-therethere {
+    grid-row: 1/2; 
+    grid-column: 2/ span 1;
+    padding: 10% 15% 10% 15%; 
+    padding-bottom: 10%; 
+    background-color: #fff76a;
+    font-family: 'Lato', sans-serif;
+    
+}
+
+.quote2-therethere {
+    grid-row: 2/3; 
+    grid-column: 2/ span 1; 
+    padding: 10% 15% 10% 15%; 
+    padding-bottom: 10%; 
+    padding-top: 10%; 
+    background-color: #ffb037;
+    font-family: 'Aleo', serif;
+    
+}
+
+.analysis2-therethere {
+    grid-row: 2/3; 
+    grid-column: 1/ span 1; 
+    padding: 10% 15% 10% 15%; 
+    padding-bottom: 10%; 
+    background-color: #f58634;
+    font-family: 'Lato', sans-serif;
+}
+
+.quote3-therethere  {
+    grid-row: 3/-1;
+    grid-column: 1/2;
+    padding: 10% 15% 10% 15%; 
+    padding-bottom: 20%;
+    padding-top: 15%;
+    background-color: #e97171;
+    font-family: 'Aleo', serif;
+}
+
+.analysis3-therethere {
+    grid-row: 3/-1; 
+    grid-column: 2/ span 1;
+    padding: 10% 15% 10% 15%; 
+    padding-bottom: 20%; 
+    background-color: #ff4646;
+    font-family: 'Lato', sans-serif;
+}
+
+.educ-there {
+    padding-top: 50px;
+    background: #f26732;
+    font-family: 'Aleo', serif;
+}
+
+.bottom-mid-there {
+    display:flex; 
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background: #f26732;
+    padding-bottom: 20px;
+    margin-bottom: 100px;
+
+}
+
+.there-vid1 p, .there-vid2 p, .there-vid3 p {
+    font-size: 13px; 
+    margin-bottom: 10px;
+    font-family: 'Lato', sans-serif;
+}
+
+
+.there-vid1, .there-vid2, .there-vid3{
+    margin: 10px; 
+}
+
+.there-quotes {
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Aleo', serif;
+}
+
+
+
+.therethere-imgs{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    border-right: 100px solid white; 
+    border-left: 100px solid white;
+    border-top: 10px solid white;   
+}
+.there-art img {
+    width:100%;
+    height: 100%;
+}
+
+.art-contain1{
+    height:112%;
+}
+.art-contain3, .art-contain4 {
     height: 90%;
-    display: block;
-    margin-right: auto;
-    margin-left: auto;
-    border: 2px solid black;
-
 }
 
+.art-contain2 {
+    height: 115%; 
+}
 
+.there-descriptions  {
+    grid-column: 1/ span 2;
+    padding-top: 10px; 
 
+  
+}
+
+.there-descriptions p{ 
+    padding-top: 15px;
+    font-family: 'Lato', sans-serif;
+    background-color: #fee436; 
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.there-descriptions p a:hover {
+    background-color: #f26732;
+}
+.there-bottom-bottom {
+    padding-bottom: 40px;
+    margin-bottom: 20px;
+}
