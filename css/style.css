@@ -446,11 +446,12 @@ li {
 .comments {
     width: 50%; 
     padding: 70px; 
-    border-right: 220px solid pink;
-    border-left: 220px solid pink;
-    background-color: pink; 
+    border-right: 220px solid #009eaa;
+    border-left: 220px solid #009eaa;
+    background-color: #009eaa; 
     margin-left: auto;
-    margin-right: auto
+    margin-right: auto;
+    background-color: #009eaa;
 }
 
 #HCB_comment_box h3 { 
@@ -621,7 +622,7 @@ li {
     padding-bottom: 20%;
     padding-top: 15%;
     background-color: #e97171;
-    font-family: 'Aleo', serif;
+
 }
 
 .analysis3-therethere {
@@ -715,6 +716,16 @@ li {
     margin-bottom: 20px;
 }
 
+.there-comments {
+    width: 45.5%; 
+    padding: 70px; 
+    border-right: 220px solid #f26732;
+    border-left: 220px solid #f26732;
+    background-color: #f26732; 
+    margin-left: auto;
+    margin-right: auto
+}
+
 /* Belonging Page */
 
 .belonging{
@@ -726,7 +737,7 @@ li {
     background-clip: content-box;
     width: 100vw;
     height: 40vh; 
-    background-color: pink;
+    background-color: #a1b4b6;
 
 }
 
@@ -738,6 +749,7 @@ li {
     margin-left: auto; 
     margin-right: auto; 
     text-align: center;
+    font-family: 'Frank Ruhl Libre', serif;
 }
 
 
@@ -745,7 +757,8 @@ li {
     font-size: 40px;
     margin-top: 5px; 
     font-family: 'Aleo', serif;
-    color: black;
+    color: black; 
+    font-family: 'Frank Ruhl Libre', serif;
 }
 
 .main-belonging {
@@ -761,6 +774,8 @@ li {
     margin-left: 8%;
     font-size: 20px; 
     padding-bottom: 10px;
+    color: #900738;
+    font-family: 'Frank Ruhl Libre', serif;
 }
 .belong-pic img {
     height: 90vh; 
@@ -777,7 +792,7 @@ li {
 }
 
 .belong-content{
-    background-color: pink; 
+    background-color: #a1b4b6; 
     margin-left: 4%;
     padding-top: 3%;
     margin-right: 4%;
@@ -790,6 +805,7 @@ li {
     margin-top: 5px; 
     margin-bottom: 7px;
     margin-top: 2%;
+    font-family: 'Frank Ruhl Libre', serif;
 
 }
 
@@ -797,6 +813,7 @@ li {
 .quotes-belong {
     text-align: center;
     font-size: 30px;
+    font-family: 'Frank Ruhl Libre', serif;
 }
 
 .txt {
@@ -809,7 +826,9 @@ li {
     padding: 10% 15% 10% 15%; 
     padding-top: 18%;
     padding-bottom: 5%;
-    background-color: pink;
+    background-color: #C32146;
+    color: white; 
+    font-family: 'Frank Ruhl Libre', serif;
 }
 
 .analysis1-belong {
@@ -817,7 +836,9 @@ li {
     grid-column: 2/ span 1;
     padding: 10% 15% 10% 15%; 
     padding-bottom: 10%; 
-    background-color: plum;
+    background-color:#B61A38;
+    color: white; 
+    font-family: 'Lato', sans-serif;
     
 }
 
@@ -827,7 +848,9 @@ li {
     padding: 10% 15% 10% 15%; 
     padding-bottom: 10%; 
     padding-top: 12%; 
-    background-color: pink;
+    background-color: #A8142A;
+    color: white; 
+    font-family: 'Frank Ruhl Libre', serif;
 }
 
 .analysis2-belong {
@@ -835,7 +858,9 @@ li {
     grid-column: 1/ span 1; 
     padding: 10% 15% 10% 15%; 
     padding-bottom: 10%; 
-    background-color: plum;
+    background-color: #9B0D1C;
+    color: white; 
+    font-family: 'Lato', sans-serif;
 }
 
 .quote3-belong  {
@@ -844,7 +869,9 @@ li {
     padding: 10% 15% 10% 15%; 
     padding-bottom: 20%;
     padding-top: 19%;
-    background-color:pink;
+    background-color: #8D070E;
+    color: white; 
+    font-family: 'Frank Ruhl Libre', serif;
 }
 
 .analysis3-belong {
@@ -852,21 +879,25 @@ li {
     grid-column: 2/ span 1;
     padding: 10% 15% 10% 15%; 
     padding-bottom: 20%; 
-    background-color: plum;
+    background-color:   #800000;
+    color: white; 
+    font-family: 'Lato', sans-serif;
 }
 
 
 
 .educ-belong {
     padding-top: 40px;
-    background: yellow;
+    background: #900738;
+    color:white;
+    font-family: 'Frank Ruhl Libre', serif;
 }
 .bottom-mid-belong {
     display:flex; 
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    background: yellow;
+    background: #900738;
     padding-bottom: 20px;
     margin-bottom: 100px;
 
@@ -876,6 +907,7 @@ li {
     font-size: 13px; 
     margin-bottom: 10px;
     font-family: 'Lato', sans-serif;
+    color: white;  
 }
 
 
@@ -922,13 +954,13 @@ li {
 .belong-descriptions p{ 
     padding-top: 10px;
     font-family: 'Lato', sans-serif;
-    background-color: #fed350; 
+    background-color: #ADAEB3; 
     padding-left: 10px;
     padding-right: 10px;
 }
 
 .belong-descriptions p a:hover {
-    background-color: #009eaa;
+    background-color: #900738;
 }
 .bottom-bottom {
     padding-bottom: 40px;
@@ -936,4 +968,14 @@ li {
 }
 .end {
     padding-bottom: 10px;
+}
+
+.be-comments {
+    width: 50%; 
+    padding: 70px; 
+    border-right: 220px solid #ADAEB3;
+    border-left: 220px solid #ADAEB3;
+    background-color: #ADAEB3; 
+    margin-left: auto;
+    margin-right: auto
 }
